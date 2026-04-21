@@ -26,7 +26,7 @@ public class JDBC_study {
     }
     
     // 数据库连接信息
-    private static final String URL = "jdbc:mysql://localhost:3306/jdbc_study?useSSL=false&serverTimezone=UTC&characterEncoding=utf8";
+    private static final String URL = "jdbc:mysql://localhost:3306/jdbc_study?useSSL=false&serverTimezone=UTC&characterEncoding=utf8&allowPublicKeyRetrieval=true";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "00000000"; // 替换为你的MySQL密码
     
