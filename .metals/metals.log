@@ -2502,3 +2502,1718 @@ Apr 20, 2026 3:40:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 2026.04.20 15:40:19 INFO  Memory monitor stopped
 2026.04.20 15:40:19 INFO  shutting down Metals
 2026.04.20 15:40:19 INFO  Exiting server
+2026.04.22 13:46:17 INFO  Started: Metals version 1.6.7 in folders 'X:\SQL学习' for client Trae CN 1.107.1.
+2026.04.22 13:46:17 INFO  Memory monitor started
+2026.04.22 13:46:18 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+Apr 22, 2026 1:46:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2026.04.22 13:46:46 INFO  running 'C:\Program Files\Java\java-21-openjdk-21.0.7.0.6-1.win.jdk.x86_64\bin\java.exe -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=X:\SQL学习\demo -Dmaven.home=C:\Users\16618\AppData\Local\Temp\metals8859211981509270958 -cp C:\Users\16618\AppData\Local\Temp\metals8859211981509270958\maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.3:bloopInstall -DdownloadSources=true'
+2026.04.22 13:46:48 INFO  [INFO] Scanning for projects...
+2026.04.22 13:46:48 INFO  [INFO] 
+2026.04.22 13:46:48 INFO  [INFO] --------------------------< com.example:demo >--------------------------
+2026.04.22 13:46:48 INFO  [INFO] Building demo 1.0-SNAPSHOT
+2026.04.22 13:46:48 INFO  [INFO]   from pom.xml
+2026.04.22 13:46:48 INFO  [INFO] --------------------------------[ jar ]---------------------------------
+2026.04.22 13:46:48 INFO  [INFO] 
+2026.04.22 13:46:48 INFO  [INFO] --- bloop:2.0.3:bloopInstall (default-cli) @ demo ---
+2026.04.22 13:46:55 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies
+2026.04.22 13:46:55 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies
+2026.04.22 13:46:55 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = false)
+2026.04.22 13:46:55 INFO  [INFO] SUCCESS: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = false)
+2026.04.22 13:46:55 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = true)
+2026.04.22 13:46:55 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/io/micrometer/micrometer-observation/1.12.4/micrometer-observation-1.12.4-sources.jar
+2026.04.22 13:46:55 INFO  Progress (1): 7.3/52 kB
+2026.04.22 13:46:55 INFO  Progress (1): 7.7/52 kB
+2026.04.22 13:46:55 INFO  Progress (1): 24/52 kB 
+2026.04.22 13:46:55 INFO  Progress (1): 38/52 kB
+2026.04.22 13:46:55 INFO  Progress (1): 40/52 kB
+2026.04.22 13:46:55 INFO  Progress (1): 52 kB   
+2026.04.22 13:46:55 INFO                     
+2026.04.22 13:46:55 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/io/micrometer/micrometer-observation/1.12.4/micrometer-observation-1.12.4-sources.jar (52 kB at 77 kB/s)
+2026.04.22 13:46:55 INFO  [INFO] SUCCESS: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = true)
+2026.04.22 13:46:55 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = false)
+2026.04.22 13:46:55 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = false)
+2026.04.22 13:46:55 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = true)
+2026.04.22 13:46:55 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter/3.2.4/spring-boot-starter-3.2.4-sources.jar
+2026.04.22 13:46:55 INFO  Progress (1): 4.7 kB
+2026.04.22 13:46:56 INFO                      
+2026.04.22 13:46:56 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter/3.2.4/spring-boot-starter-3.2.4-sources.jar (4.7 kB at 16 kB/s)
+2026.04.22 13:46:56 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = true)
+2026.04.22 13:46:56 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = false)
+2026.04.22 13:46:56 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = false)
+2026.04.22 13:46:56 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = true)
+2026.04.22 13:46:56 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.19/tomcat-embed-websocket-10.1.19-sources.jar
+2026.04.22 13:46:56 INFO  Progress (1): 7.3/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 7.8/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 24/246 kB 
+2026.04.22 13:46:56 INFO  Progress (1): 41/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 57/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 63/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 69/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 85/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 102/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 118/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 127/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 139/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 156/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 172/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 188/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 192/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 199/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 215/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 232/246 kB
+2026.04.22 13:46:56 INFO  Progress (1): 246 kB    
+2026.04.22 13:46:56 INFO                      
+2026.04.22 13:46:56 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.19/tomcat-embed-websocket-10.1.19-sources.jar (246 kB at 761 kB/s)
+2026.04.22 13:46:56 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = true)
+2026.04.22 13:46:56 INFO  [INFO] Resolving artifact: org.yaml:snakeyaml:jar:2.2:compile (sources = false)
+2026.04.22 13:46:56 INFO  [INFO] SUCCESS: org.yaml:snakeyaml:jar:2.2:compile (sources = false)
+2026.04.22 13:46:56 INFO  [INFO] Resolving artifact: org.yaml:snakeyaml:jar:2.2:compile (sources = true)
+2026.04.22 13:46:56 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/yaml/snakeyaml/2.2/snakeyaml-2.2-sources.jar
+2026.04.22 13:46:56 INFO  Progress (1): 7.3/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 16/207 kB 
+2026.04.22 13:46:56 INFO  Progress (1): 19/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 36/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 52/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 60/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 75/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 84/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 100/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 106/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 122/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 138/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 146/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 151/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 167/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 184/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 196/207 kB
+2026.04.22 13:46:56 INFO  Progress (1): 207 kB    
+2026.04.22 13:46:56 INFO                      
+2026.04.22 13:46:56 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/yaml/snakeyaml/2.2/snakeyaml-2.2-sources.jar (207 kB at 696 kB/s)
+2026.04.22 13:46:56 INFO  [INFO] SUCCESS: org.yaml:snakeyaml:jar:2.2:compile (sources = true)
+2026.04.22 13:46:56 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = false)
+2026.04.22 13:46:56 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = false)
+2026.04.22 13:46:56 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = true)
+2026.04.22 13:46:56 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4-sources.jar
+2026.04.22 13:46:56 INFO  Progress (1): 7.3/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 16/466 kB 
+2026.04.22 13:46:56 INFO  Progress (1): 32/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 48/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 65/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 81/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 97/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 114/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 130/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 146/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 163/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 179/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 196/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 212/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 228/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 245/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 261/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 278/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 294/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 310/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 327/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 343/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 359/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 376/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 392/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 409/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 425/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 441/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 458/466 kB
+2026.04.22 13:46:56 INFO  Progress (1): 466 kB    
+2026.04.22 13:46:57 INFO                      
+2026.04.22 13:46:57 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4-sources.jar (466 kB at 1.3 MB/s)
+2026.04.22 13:46:57 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = true)
+2026.04.22 13:46:57 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = false)
+2026.04.22 13:46:57 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = false)
+2026.04.22 13:46:57 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = true)
+2026.04.22 13:46:57 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot/3.2.4/spring-boot-3.2.4-sources.jar
+2026.04.22 13:46:57 INFO  Progress (1): 0/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1/1.1 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1 MB    
+2026.04.22 13:46:57 INFO                      
+2026.04.22 13:46:57 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot/3.2.4/spring-boot-3.2.4-sources.jar (1.1 MB at 2.8 MB/s)
+2026.04.22 13:46:57 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = true)
+2026.04.22 13:46:57 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = false)
+2026.04.22 13:46:57 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = false)
+2026.04.22 13:46:57 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = true)
+2026.04.22 13:46:57 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar
+2026.04.22 13:46:57 INFO  Progress (1): 0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 0.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 1.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.7/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.8/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 2.9/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.0/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.1/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.2/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.3/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.4/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.5/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.6/3.6 MB
+2026.04.22 13:46:57 INFO  Progress (1): 3.6 MB    
+2026.04.22 13:46:58 INFO                      
+2026.04.22 13:46:58 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19-sources.jar (3.6 MB at 5.2 MB/s)
+2026.04.22 13:46:58 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = true)
+2026.04.22 13:46:58 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = false)
+2026.04.22 13:46:58 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = false)
+2026.04.22 13:46:58 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = true)
+2026.04.22 13:46:58 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter-json/3.2.4/spring-boot-starter-json-3.2.4-sources.jar
+2026.04.22 13:46:58 INFO  Progress (1): 4.7 kB
+2026.04.22 13:46:58 INFO                      
+2026.04.22 13:46:58 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter-json/3.2.4/spring-boot-starter-json-3.2.4-sources.jar (4.7 kB at 20 kB/s)
+2026.04.22 13:46:58 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = true)
+2026.04.22 13:46:58 INFO  [INFO] Resolving artifact: org.springframework:spring-beans:jar:6.1.5:compile (sources = false)
+2026.04.22 13:46:58 INFO  [INFO] SUCCESS: org.springframework:spring-beans:jar:6.1.5:compile (sources = false)
+2026.04.22 13:46:58 INFO  [INFO] Resolving artifact: org.springframework:spring-beans:jar:6.1.5:compile (sources = true)
+2026.04.22 13:46:58 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-beans/6.1.5/spring-beans-6.1.5-sources.jar
+2026.04.22 13:46:58 INFO  Progress (1): 7.3/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 11/722 kB 
+2026.04.22 13:46:58 INFO  Progress (1): 27/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 43/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 60/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 63/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 75/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 91/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 108/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 124/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 127/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 130/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 147/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 163/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 180/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 192/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 208/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 212/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 229/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 245/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 256/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 260/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 277/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 293/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 310/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 320/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 322/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 338/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 354/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 371/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 387/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 404/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 420/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 436/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 453/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 469/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 486/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 502/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 518/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 535/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 551/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 567/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 584/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 600/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 617/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 633/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 649/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 666/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 682/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 699/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 715/722 kB
+2026.04.22 13:46:58 INFO  Progress (1): 722 kB    
+2026.04.22 13:46:58 INFO                      
+2026.04.22 13:46:58 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-beans/6.1.5/spring-beans-6.1.5-sources.jar (722 kB at 1.9 MB/s)
+2026.04.22 13:46:58 INFO  [INFO] SUCCESS: org.springframework:spring-beans:jar:6.1.5:compile (sources = true)
+2026.04.22 13:46:58 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = false)
+2026.04.22 13:46:58 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = false)
+2026.04.22 13:46:58 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = true)
+2026.04.22 13:46:58 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter-logging/3.2.4/spring-boot-starter-logging-3.2.4-sources.jar
+2026.04.22 13:46:58 INFO  Progress (1): 4.7 kB
+2026.04.22 13:46:58 INFO                      
+2026.04.22 13:46:58 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter-logging/3.2.4/spring-boot-starter-logging-3.2.4-sources.jar (4.7 kB at 17 kB/s)
+2026.04.22 13:46:58 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = true)
+2026.04.22 13:46:58 INFO  [INFO] Resolving artifact: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = false)
+2026.04.22 13:46:58 INFO  [INFO] SUCCESS: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = false)
+2026.04.22 13:46:58 INFO  [INFO] Resolving artifact: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = true)
+2026.04.22 13:46:58 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1-sources.jar
+2026.04.22 13:46:58 INFO  Progress (1): 7.3/37 kB
+2026.04.22 13:46:58 INFO  Progress (1): 7.7/37 kB
+2026.04.22 13:46:58 INFO  Progress (1): 24/37 kB 
+2026.04.22 13:46:58 INFO  Progress (1): 37 kB   
+2026.04.22 13:47:00 INFO                     
+2026.04.22 13:47:00 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1-sources.jar (37 kB at 66 kB/s)
+2026.04.22 13:47:00 INFO  [INFO] SUCCESS: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = true)
+2026.04.22 13:47:00 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:00 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:00 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:00 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4-sources.jar
+2026.04.22 13:47:00 INFO  Progress (1): 7.3/24 kB
+2026.04.22 13:47:00 INFO  Progress (1): 11/24 kB 
+2026.04.22 13:47:00 INFO  Progress (1): 24 kB   
+2026.04.22 13:47:00 INFO                     
+2026.04.22 13:47:00 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4-sources.jar (24 kB at 39 kB/s)
+2026.04.22 13:47:00 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:00 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = false)
+2026.04.22 13:47:00 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = false)
+2026.04.22 13:47:00 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = true)
+2026.04.22 13:47:00 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1-sources.jar
+2026.04.22 13:47:00 INFO  Progress (1): 7.3/18 kB
+2026.04.22 13:47:00 INFO  Progress (1): 16/18 kB 
+2026.04.22 13:47:00 INFO  Progress (1): 18 kB   
+2026.04.22 13:47:00 INFO                     
+2026.04.22 13:47:00 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1-sources.jar (18 kB at 50 kB/s)
+2026.04.22 13:47:00 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = true)
+2026.04.22 13:47:00 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:00 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:00 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:00 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4-sources.jar
+2026.04.22 13:47:01 INFO  Progress (1): 7.3/82 kB
+2026.04.22 13:47:01 INFO  Progress (1): 7.7/82 kB
+2026.04.22 13:47:01 INFO  Progress (1): 24/82 kB 
+2026.04.22 13:47:01 INFO  Progress (1): 41/82 kB
+2026.04.22 13:47:01 INFO  Progress (1): 57/82 kB
+2026.04.22 13:47:01 INFO  Progress (1): 73/82 kB
+2026.04.22 13:47:01 INFO  Progress (1): 82 kB   
+2026.04.22 13:47:01 INFO                     
+2026.04.22 13:47:01 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4-sources.jar (82 kB at 490 kB/s)
+2026.04.22 13:47:01 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:01 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = false)
+2026.04.22 13:47:01 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = false)
+2026.04.22 13:47:01 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = true)
+2026.04.22 13:47:01 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12-sources.jar
+2026.04.22 13:47:01 INFO  Progress (1): 7.3/75 kB
+2026.04.22 13:47:01 INFO  Progress (1): 16/75 kB 
+2026.04.22 13:47:01 INFO  Progress (1): 32/75 kB
+2026.04.22 13:47:01 INFO  Progress (1): 48/75 kB
+2026.04.22 13:47:01 INFO  Progress (1): 65/75 kB
+2026.04.22 13:47:01 INFO  Progress (1): 75 kB   
+2026.04.22 13:47:01 INFO                     
+2026.04.22 13:47:01 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12-sources.jar (75 kB at 228 kB/s)
+2026.04.22 13:47:01 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = true)
+2026.04.22 13:47:01 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:01 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:01 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:01 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4-sources.jar
+2026.04.22 13:47:01 INFO  Progress (1): 7.3/84 kB
+2026.04.22 13:47:01 INFO  Progress (1): 7.8/84 kB
+2026.04.22 13:47:01 INFO  Progress (1): 24/84 kB 
+2026.04.22 13:47:01 INFO  Progress (1): 41/84 kB
+2026.04.22 13:47:01 INFO  Progress (1): 57/84 kB
+2026.04.22 13:47:01 INFO  Progress (1): 73/84 kB
+2026.04.22 13:47:01 INFO  Progress (1): 84 kB   
+2026.04.22 13:47:01 INFO                     
+2026.04.22 13:47:01 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4-sources.jar (84 kB at 363 kB/s)
+2026.04.22 13:47:01 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:01 INFO  [INFO] Resolving artifact: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:01 INFO  [INFO] SUCCESS: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:01 INFO  [INFO] Resolving artifact: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:01 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-webmvc/6.1.5/spring-webmvc-6.1.5-sources.jar
+2026.04.22 13:47:01 INFO  Progress (1): 7.3/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 11/832 kB 
+2026.04.22 13:47:01 INFO  Progress (1): 27/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 43/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 60/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 76/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 93/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 109/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 125/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 142/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 158/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 175/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 191/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 207/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 224/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 240/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 256/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 273/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 289/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 306/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 322/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 338/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 355/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 371/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 388/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 404/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 420/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 437/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 453/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 469/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 486/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 502/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 519/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 524/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 535/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 551/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 561/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 578/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 594/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 611/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 627/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 643/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 660/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 676/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 693/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 709/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 725/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 742/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 758/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 774/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 791/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 807/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 824/832 kB
+2026.04.22 13:47:01 INFO  Progress (1): 832 kB    
+2026.04.22 13:47:02 INFO                      
+2026.04.22 13:47:02 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-webmvc/6.1.5/spring-webmvc-6.1.5-sources.jar (832 kB at 1.5 MB/s)
+2026.04.22 13:47:02 INFO  [INFO] SUCCESS: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:02 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = false)
+2026.04.22 13:47:02 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = false)
+2026.04.22 13:47:02 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = true)
+2026.04.22 13:47:02 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/tomcat/embed/tomcat-embed-el/10.1.19/tomcat-embed-el-10.1.19-sources.jar
+2026.04.22 13:47:02 INFO  Progress (1): 7.3/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 7.8/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 24/222 kB 
+2026.04.22 13:47:02 INFO  Progress (1): 41/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 57/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 73/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 90/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 106/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 122/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 139/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 155/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 172/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 188/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 204/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 221/222 kB
+2026.04.22 13:47:02 INFO  Progress (1): 222 kB    
+2026.04.22 13:47:02 INFO                      
+2026.04.22 13:47:02 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/tomcat/embed/tomcat-embed-el/10.1.19/tomcat-embed-el-10.1.19-sources.jar (222 kB at 476 kB/s)
+2026.04.22 13:47:02 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = true)
+2026.04.22 13:47:02 INFO  [INFO] Resolving artifact: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = false)
+2026.04.22 13:47:02 INFO  [INFO] SUCCESS: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = false)
+2026.04.22 13:47:02 INFO  [INFO] Resolving artifact: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = true)
+2026.04.22 13:47:02 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/jul-to-slf4j/2.0.12/jul-to-slf4j-2.0.12-sources.jar
+2026.04.22 13:47:02 INFO  Progress (1): 7.1 kB
+2026.04.22 13:47:03 INFO                      
+2026.04.22 13:47:03 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/jul-to-slf4j/2.0.12/jul-to-slf4j-2.0.12-sources.jar (7.1 kB at 13 kB/s)
+2026.04.22 13:47:03 INFO  [INFO] SUCCESS: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = true)
+2026.04.22 13:47:03 INFO  [INFO] Resolving artifact: org.springframework:spring-context:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:03 INFO  [INFO] SUCCESS: org.springframework:spring-context:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:03 INFO  [INFO] Resolving artifact: org.springframework:spring-context:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:03 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-context/6.1.5/spring-context-6.1.5-sources.jar
+2026.04.22 13:47:03 INFO  Progress (1): 0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.1 MB    
+2026.04.22 13:47:03 INFO                      
+2026.04.22 13:47:03 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-context/6.1.5/spring-context-6.1.5-sources.jar (1.1 MB at 3.3 MB/s)
+2026.04.22 13:47:03 INFO  [INFO] SUCCESS: org.springframework:spring-context:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:03 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = false)
+2026.04.22 13:47:03 INFO  [INFO] SUCCESS: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = false)
+2026.04.22 13:47:03 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = true)
+2026.04.22 13:47:03 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14-sources.jar
+2026.04.22 13:47:03 INFO  Progress (1): 3.4/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 20/466 kB 
+2026.04.22 13:47:03 INFO  Progress (1): 36/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 53/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 69/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 85/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 102/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 118/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 134/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 151/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 167/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 184/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 200/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 216/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 233/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 249/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 266/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 282/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 298/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 315/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 331/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 347/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 364/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 380/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 397/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 413/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 429/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 446/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 462/466 kB
+2026.04.22 13:47:03 INFO  Progress (1): 466 kB    
+2026.04.22 13:47:03 INFO                      
+2026.04.22 13:47:03 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14-sources.jar (466 kB at 1.5 MB/s)
+2026.04.22 13:47:03 INFO  [INFO] SUCCESS: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = true)
+2026.04.22 13:47:03 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:03 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:03 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:03 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-autoconfigure/3.2.4/spring-boot-autoconfigure-3.2.4-sources.jar
+2026.04.22 13:47:03 INFO  Progress (1): 0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.2/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.3/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.4/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.5/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.6/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.7/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.8/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 0.9/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.0/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.1/1.1 MB
+2026.04.22 13:47:03 INFO  Progress (1): 1.1 MB    
+2026.04.22 13:47:04 INFO                      
+2026.04.22 13:47:04 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-autoconfigure/3.2.4/spring-boot-autoconfigure-3.2.4-sources.jar (1.1 MB at 2.9 MB/s)
+2026.04.22 13:47:04 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:04 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = false)
+2026.04.22 13:47:04 INFO  [INFO] SUCCESS: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = false)
+2026.04.22 13:47:04 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = true)
+2026.04.22 13:47:04 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/io/micrometer/micrometer-commons/1.12.4/micrometer-commons-1.12.4-sources.jar
+2026.04.22 13:47:04 INFO  Progress (1): 4.9/46 kB
+2026.04.22 13:47:04 INFO  Progress (1): 21/46 kB 
+2026.04.22 13:47:04 INFO  Progress (1): 38/46 kB
+2026.04.22 13:47:04 INFO  Progress (1): 46 kB   
+2026.04.22 13:47:04 INFO                     
+2026.04.22 13:47:04 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/io/micrometer/micrometer-commons/1.12.4/micrometer-commons-1.12.4-sources.jar (46 kB at 66 kB/s)
+2026.04.22 13:47:04 INFO  [INFO] SUCCESS: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = true)
+2026.04.22 13:47:04 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:04 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:04 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:04 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4-sources.jar
+2026.04.22 13:47:04 INFO  Progress (1): 0/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.2/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.2/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.2/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.2/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.2/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.2/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.3/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.3/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.3/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.3/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.3/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.3/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.4/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.4/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.4/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.4/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.4/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.4/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.4/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.5/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.5/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.5/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.5/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.5/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.5/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.6/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.6/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.6/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.6/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.6/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.6/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.7/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.7/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.7/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.7/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.7/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.7/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.8/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.8/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.8/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.8/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.8/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.8/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.9/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.9/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.9/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.9/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.9/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 0.9/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.0/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.0/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.0/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.0/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.0/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.0/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.1/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.2/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.2/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.2/1.2 MB
+2026.04.22 13:47:04 INFO  Progress (1): 1.2 MB    
+2026.04.22 13:47:05 INFO                      
+2026.04.22 13:47:05 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4-sources.jar (1.2 MB at 3.0 MB/s)
+2026.04.22 13:47:05 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:05 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = false)
+2026.04.22 13:47:05 INFO  [INFO] SUCCESS: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = false)
+2026.04.22 13:47:05 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = true)
+2026.04.22 13:47:05 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14-sources.jar
+2026.04.22 13:47:05 INFO  Progress (1): 7.3/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 9.2/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 26/233 kB 
+2026.04.22 13:47:05 INFO  Progress (1): 42/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 58/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 75/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 91/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 108/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 124/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 140/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 157/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 173/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 189/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 206/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 222/233 kB
+2026.04.22 13:47:05 INFO  Progress (1): 233 kB    
+2026.04.22 13:47:05 INFO                      
+2026.04.22 13:47:05 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14-sources.jar (233 kB at 959 kB/s)
+2026.04.22 13:47:05 INFO  [INFO] SUCCESS: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = true)
+2026.04.22 13:47:05 INFO  [INFO] Resolving artifact: org.springframework:spring-aop:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:05 INFO  [INFO] SUCCESS: org.springframework:spring-aop:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:05 INFO  [INFO] Resolving artifact: org.springframework:spring-aop:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:05 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-aop/6.1.5/spring-aop-6.1.5-sources.jar
+2026.04.22 13:47:05 INFO  Progress (1): 7.3/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 7.8/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 24/371 kB 
+2026.04.22 13:47:05 INFO  Progress (1): 41/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 57/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 73/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 90/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 106/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 122/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 139/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 155/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 172/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 188/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 204/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 221/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 237/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 254/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 262/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 268/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 284/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 301/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 317/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 334/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 350/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 366/371 kB
+2026.04.22 13:47:05 INFO  Progress (1): 371 kB    
+2026.04.22 13:47:05 INFO                      
+2026.04.22 13:47:05 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-aop/6.1.5/spring-aop-6.1.5-sources.jar (371 kB at 1.5 MB/s)
+2026.04.22 13:47:05 INFO  [INFO] SUCCESS: org.springframework:spring-aop:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:05 INFO  [INFO] Resolving artifact: org.springframework:spring-web:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:05 INFO  [INFO] SUCCESS: org.springframework:spring-web:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:05 INFO  [INFO] Resolving artifact: org.springframework:spring-web:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:05 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-web/6.1.5/spring-web-6.1.5-sources.jar
+2026.04.22 13:47:05 INFO  Progress (1): 0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.4/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.4/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.4/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.4/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.4/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.4/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.4/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.4/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.5/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.5/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.5/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.5/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.5/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.5/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.5/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.5/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.5/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.6/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.6/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.6/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.6/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.6/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.6/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.6/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.6/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.7/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.8/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.8/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.8/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.8/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.8/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.8/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 0.9/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.0/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.1/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.2/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.3/1.3 MB
+2026.04.22 13:47:05 INFO  Progress (1): 1.3 MB    
+2026.04.22 13:47:05 INFO                      
+2026.04.22 13:47:05 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-web/6.1.5/spring-web-6.1.5-sources.jar (1.3 MB at 3.2 MB/s)
+2026.04.22 13:47:05 INFO  [INFO] SUCCESS: org.springframework:spring-web:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:05 INFO  [INFO] Resolving artifact: org.springframework:spring-jcl:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:05 INFO  [INFO] SUCCESS: org.springframework:spring-jcl:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:05 INFO  [INFO] Resolving artifact: org.springframework:spring-jcl:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:05 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-jcl/6.1.5/spring-jcl-6.1.5-sources.jar
+2026.04.22 13:47:05 INFO  Progress (1): 3.4/13 kB
+2026.04.22 13:47:05 INFO  Progress (1): 13 kB    
+2026.04.22 13:47:07 INFO                     
+2026.04.22 13:47:07 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-jcl/6.1.5/spring-jcl-6.1.5-sources.jar (13 kB at 18 kB/s)
+2026.04.22 13:47:07 INFO  [INFO] SUCCESS: org.springframework:spring-jcl:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:07 INFO  [INFO] Resolving artifact: org.springframework:spring-expression:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:07 INFO  [INFO] SUCCESS: org.springframework:spring-expression:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:07 INFO  [INFO] Resolving artifact: org.springframework:spring-expression:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:07 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-expression/6.1.5/spring-expression-6.1.5-sources.jar
+2026.04.22 13:47:07 INFO  Progress (1): 6.3/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 23/224 kB 
+2026.04.22 13:47:07 INFO  Progress (1): 39/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 55/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 72/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 88/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 105/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 121/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 137/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 154/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 170/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 187/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 203/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 219/224 kB
+2026.04.22 13:47:07 INFO  Progress (1): 224 kB    
+2026.04.22 13:47:07 INFO                      
+2026.04.22 13:47:07 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-expression/6.1.5/spring-expression-6.1.5-sources.jar (224 kB at 730 kB/s)
+2026.04.22 13:47:07 INFO  [INFO] SUCCESS: org.springframework:spring-expression:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:07 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = false)
+2026.04.22 13:47:07 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = false)
+2026.04.22 13:47:07 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = true)
+2026.04.22 13:47:07 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1-sources.jar
+2026.04.22 13:47:07 INFO  Progress (1): 7.3/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 9.2/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 26/272 kB 
+2026.04.22 13:47:07 INFO  Progress (1): 42/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 58/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 75/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 91/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 108/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 124/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 140/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 157/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 173/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 189/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 206/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 217/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 233/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 249/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 266/272 kB
+2026.04.22 13:47:07 INFO  Progress (1): 272 kB    
+2026.04.22 13:47:07 INFO                      
+2026.04.22 13:47:07 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1-sources.jar (272 kB at 1.2 MB/s)
+2026.04.22 13:47:07 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = true)
+2026.04.22 13:47:07 INFO  [INFO] Resolving artifact: com.mysql:mysql-connector-j:jar:9.6.0:compile (sources = false)
+2026.04.22 13:47:07 INFO  [INFO] SUCCESS: com.mysql:mysql-connector-j:jar:9.6.0:compile (sources = false)
+2026.04.22 13:47:07 INFO  [INFO] Resolving artifact: com.mysql:mysql-connector-j:jar:9.6.0:compile (sources = true)
+2026.04.22 13:47:07 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/mysql/mysql-connector-j/9.6.0/mysql-connector-j-9.6.0-sources.jar
+2026.04.22 13:47:07 INFO  Progress (1): 0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.8/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.8/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.8/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.8/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.8/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.8/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.9/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.9/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.9/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.9/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.9/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 0.9/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.0/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.1/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.2/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.3/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.4/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.5/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.6/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.7/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.8/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.8/1.8 MB
+2026.04.22 13:47:07 INFO  Progress (1): 1.8 MB    
+2026.04.22 13:47:07 INFO                      
+2026.04.22 13:47:07 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/mysql/mysql-connector-j/9.6.0/mysql-connector-j-9.6.0-sources.jar (1.8 MB at 5.4 MB/s)
+2026.04.22 13:47:07 INFO  [INFO] SUCCESS: com.mysql:mysql-connector-j:jar:9.6.0:compile (sources = true)
+2026.04.22 13:47:07 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:07 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:07 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:07 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter-web/3.2.4/spring-boot-starter-web-3.2.4-sources.jar
+2026.04.22 13:47:07 INFO  Progress (1): 4.7 kB
+2026.04.22 13:47:08 INFO                      
+2026.04.22 13:47:08 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter-web/3.2.4/spring-boot-starter-web-3.2.4-sources.jar (4.7 kB at 16 kB/s)
+2026.04.22 13:47:08 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:08 INFO  [INFO] Resolving artifact: org.springframework:spring-core:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:08 INFO  [INFO] SUCCESS: org.springframework:spring-core:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:08 INFO  [INFO] Resolving artifact: org.springframework:spring-core:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:08 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-core/6.1.5/spring-core-6.1.5-sources.jar
+2026.04.22 13:47:08 INFO  Progress (1): 0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.5/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.5/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.5/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.5/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.5/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.5/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.5/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.6/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.6/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.6/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.6/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.6/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.6/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.7/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.7/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.7/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.7/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.7/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.7/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.8/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.8/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.8/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.8/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.8/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.8/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.9/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.9/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.9/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.9/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.9/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 0.9/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.0/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.1/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.2/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.3/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.4/1.4 MB
+2026.04.22 13:47:08 INFO  Progress (1): 1.4 MB    
+2026.04.22 13:47:08 INFO                      
+2026.04.22 13:47:08 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-core/6.1.5/spring-core-6.1.5-sources.jar (1.4 MB at 3.7 MB/s)
+2026.04.22 13:47:08 INFO  [INFO] SUCCESS: org.springframework:spring-core:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:08 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:08 INFO  [INFO] SUCCESS: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:08 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:08 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4-sources.jar
+2026.04.22 13:47:08 INFO  Progress (1): 7.3/7.8 kB
+2026.04.22 13:47:08 INFO  Progress (1): 7.8 kB    
+2026.04.22 13:47:08 INFO                      
+2026.04.22 13:47:08 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4-sources.jar (7.8 kB at 24 kB/s)
+2026.04.22 13:47:08 INFO  [INFO] SUCCESS: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:08 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:08 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:08 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:08 INFO  Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter-tomcat/3.2.4/spring-boot-starter-tomcat-3.2.4-sources.jar
+2026.04.22 13:47:08 INFO  Progress (1): 4.7 kB
+2026.04.22 13:47:09 INFO                      
+2026.04.22 13:47:09 INFO  Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter-tomcat/3.2.4/spring-boot-starter-tomcat-3.2.4-sources.jar (4.7 kB at 17 kB/s)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Generated .bloop\demo.json
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: io.micrometer:micrometer-observation:jar:1.12.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.19:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.yaml:snakeyaml:jar:2.2:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.yaml:snakeyaml:jar:2.2:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.yaml:snakeyaml:jar:2.2:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.yaml:snakeyaml:jar:2.2:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.19:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-json:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-beans:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-beans:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-beans:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-beans:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-logging:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.slf4j:slf4j-api:jar:2.0.12:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-webmvc:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.19:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.slf4j:jul-to-slf4j:jar:2.0.12:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-context:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-context:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-context:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-context:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: ch.qos.logback:logback-core:jar:1.4.14:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-autoconfigure:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: io.micrometer:micrometer-commons:jar:1.12.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: ch.qos.logback:logback-classic:jar:1.4.14:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-aop:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-aop:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-aop:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-aop:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-web:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-web:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-web:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-web:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-jcl:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-jcl:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-jcl:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-jcl:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-expression:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-expression:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-expression:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-expression:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.mysql:mysql-connector-j:jar:9.6.0:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.mysql:mysql-connector-j:jar:9.6.0:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.mysql:mysql-connector-j:jar:9.6.0:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.mysql:mysql-connector-j:jar:9.6.0:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-web:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-core:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-core:jar:6.1.5:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework:spring-core:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework:spring-core:jar:6.1.5:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = false)
+2026.04.22 13:47:09 INFO  [INFO] Resolving artifact: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] SUCCESS: org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.4:compile (sources = true)
+2026.04.22 13:47:09 INFO  [INFO] Generated .bloop\demo-test.json
+2026.04.22 13:47:09 INFO  [INFO] ------------------------------------------------------------------------
+2026.04.22 13:47:09 INFO  [INFO] BUILD SUCCESS
+2026.04.22 13:47:09 INFO  [INFO] ------------------------------------------------------------------------
+2026.04.22 13:47:09 INFO  [INFO] Total time:  21.794 s
+2026.04.22 13:47:09 INFO  [INFO] Finished at: 2026-04-22T13:47:10+08:00
+2026.04.22 13:47:09 INFO  [INFO] ------------------------------------------------------------------------
+2026.04.22 13:47:10 INFO  time: ran 'mvn bloopInstall' in 23s
+2026.04.22 13:47:10 INFO  Attempting to connect to the build server...
+2026.04.22 13:47:10 INFO  No running Bloop server found, starting one.
+2026.04.22 13:47:11 INFO  Starting compilation server
+2026.04.22 13:47:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at X:\SQL学习\.metals\bsp.trace.json or C:\Users\16618\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.04.22 13:47:14 INFO  time: Connected to build server in 4.35s
+2026.04.22 13:47:13 INFO  Connected to Build server: Bloop v2.0.19
+2026.04.22 13:47:13 INFO  time: Imported build in 0.21s
+2026.04.22 13:47:16 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.22 13:47:16 WARN  no build target for: C:\Users\16618\AppData\Local\Temp\trae-cn\agent-review\reflex.java
+2026.04.22 13:47:17 WARN  Running javac-semanticdb failed for file:///C:/Users/16618/AppData/Local/Temp/trae-cn/agent-review/reflex.java. Output:
+
+2026.04.22 13:47:23 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.22 13:47:31 INFO  time: indexed workspace in 16s
+2026.04.22 13:47:31 WARN  no build target for: C:\Users\16618\AppData\Local\Temp\trae-cn\agent-review\reflex.java
+2026.04.22 13:49:43 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:49:44 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:49:45 INFO  compiling demo (5 java sources)
+2026.04.22 13:49:47 INFO  time: compiled demo in 2.8s
+2026.04.22 13:49:57 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:49:57 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+Apr 22, 2026 1:50:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2026.04.22 13:50:16 INFO  no build target found for C:\Users\16618\AppData\Local\Temp\trae-cn\agent-review\reflex.java. Using fallback presentation compiler.
+2026.04.22 13:50:22 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:50:23 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:50:29 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:50:29 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:52:16 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:52:16 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:52:16 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:52:16 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:52:22 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:52:22 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:52:23 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:52:23 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:52:25 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:52:25 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:52:26 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:52:26 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:53:04 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:53:04 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+Apr 22, 2026 1:55:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+Apr 22, 2026 1:57:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+Apr 22, 2026 1:57:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+警告: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "decompile_java:/c%3A/Users/16618/AppData/Local/Temp/office_temp_java/AuthController.java?1776837452888"
+  ]
+}
+java.lang.IllegalArgumentException: Illegal character in scheme name at index 9: decompile_java:/c%3A/Users/16618/AppData/Local/Temp/office_temp_java/AuthController.java?1776837452888
+	at java.base/java.net.URI.create(URI.java:932)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 9: decompile_java:/c%3A/Users/16618/AppData/Local/Temp/office_temp_java/AuthController.java?1776837452888
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parse(URI.java:3192)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URI.create(URI.java:930)
+	... 19 more
+
+2026.04.22 13:57:55 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:57:55 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:57:58 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:57:58 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+2026.04.22 13:57:59 WARN  no build target for: X:\SQL学习\JDBC_study.java
+2026.04.22 13:57:59 INFO  no build target found for X:\SQL学习\JDBC_study.java. Using fallback presentation compiler.
+Apr 22, 2026 1:58:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+警告: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "decompile_java:/c%3A/Users/16618/AppData/Local/Temp/office_temp_java/AuthController.java?1776837511355"
+  ]
+}
+java.lang.IllegalArgumentException: Illegal character in scheme name at index 9: decompile_java:/c%3A/Users/16618/AppData/Local/Temp/office_temp_java/AuthController.java?1776837511355
+	at java.base/java.net.URI.create(URI.java:932)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 9: decompile_java:/c%3A/Users/16618/AppData/Local/Temp/office_temp_java/AuthController.java?1776837511355
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parse(URI.java:3192)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URI.create(URI.java:930)
+	... 19 more
+
+2026.04.22 13:59:03 INFO  Shutting down server
+2026.04.22 13:59:03 INFO  Memory monitor stopped
+2026.04.22 13:59:03 INFO  shutting down Metals
+2026.04.22 13:59:03 INFO  Shut down connection with build server.
+2026.04.22 13:59:03 INFO  Exiting server
